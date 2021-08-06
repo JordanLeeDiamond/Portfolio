@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Georama', sans-serif;
+    font-size: 14px;
+}
+
+/* NAV STYLING */
+
+.nav {
+    /* background-color: cadetblue; */
+    /* border: 5px solid red; */
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jd-logo {
+    /* border: 5px solid black; */
+    height: 80px;
+}
+
+.nav-links {
+    /* border: 5px solid blue; */
+    height: 30px;
+    width: 20%;
+}
+
+.nav-list {
+    list-style: none;
+    text-align: center;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* MAIN STYLING */
+
+main {
+    /* border: 5px solid purple; */
+    height: 82vh;
+    display: flex;
+}
+
+.left-side {
+    /* background-color: lightsteelblue; */
+    flex: 0.6;
+}
+
+.main-content {
+    /* background-color: lightseagreen; */
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.main-content h2 {
+    margin-bottom: 40px;
+}
+
+.main-content p {
+    width: 80%;
+}
+
+.right-side {
+    /* background-color: lightgoldenrodyellow; */
+    flex: 0.6;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
